@@ -1,0 +1,35 @@
+.flex-parent,
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.insert-img {
+    padding: 10px 20px 0 0;
+}
+#footer {
+    margin-top: 100px;
+}
+.social {
+    display: flex;
+    align-content: space-between;
+    justify-content: space-around;
+}
+@media all and (max-width: 960px) {
+    .flex-child {
+        margin: 5px auto;
+    }
+     .insert-img {
+        margin: 10px 0;
+    }
+
+}
+@media all and (max-width: 480px) {
+    .flex-child {
+        margin: 5px auto;
+    }
+    .insert-img {
+        margin: 10px 0;
+    }
+
+}
