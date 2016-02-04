@@ -32,14 +32,17 @@ body {
 /////////////////////////////////////////////////////////
 .flex-wrapper {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-around;
 }
 .flex-child {
     margin-right: 10px;
+    p {
+        margin-top: 80px;
+    }
 }
 
-
+// END FLEX STYLES //
 
 ///////////////////////////////////////////////////////////
 ///////////////////  BUTTON STYLES ///////////////////////
