@@ -108,8 +108,25 @@ body {
 }
 
 #section2,
-#section3 {
+#section3,
+#section4 {
   margin: 150px auto;
+}
+
+.flex-wrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+
+.flex-child {
+  margin-right: 10px;
 }
 
 .btn {
